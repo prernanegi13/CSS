@@ -1,0 +1,57 @@
+.main{
+    background-color:grey;
+    border: 2px solid black;
+     border-radius: 5px;
+     height: 60px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(234, 121, 7);
+    color: white;
+    border-radius: 3px;
+}
+
+li a:hover{
+    background-color: blueviolet;
+    color: black;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown-content a{
+    background-color:aqua;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+
+li.dropdown .drpbtn:hover{
+    background-color: aqua;
+    color: black;
+    display: block;
+
+}
+
+.drpbtn .dropdown-content:hover{
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

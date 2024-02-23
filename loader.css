@@ -1,0 +1,26 @@
+.loader{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(245, 238, 23);
+    border-top: 20px solid rgb(1, 221, 255);
+    /* animation: spinani 3s steps(3) 0s infinite normal; */
+    /* animation: spinani 3s ease-in 0s infinite normal; */
+    animation: spinani 2s ease-in-out 0s infinite normal;
+
+}
+
+
+@keyframes  spinani
+{
+  from
+    {
+    transform: rotate(0deg);
+    }
+
+   to
+   {
+    transform: rotate(360deg);
+   }   
+}

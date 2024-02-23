@@ -1,0 +1,39 @@
+.login{
+    height: 300px;
+    width: 400px;
+    border: 2px solid grey;
+    border-top: blue 3px solid;
+    margin: auto;
+    /* display: inline-block; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  
+
+
+}
+
+#box1{
+    height: 30px;
+    width: 400px;
+    border-bottom:solid grey 2px;
+    text-align: center;
+    color: black;
+    background-color: grey;
+    padding-top: 5px;
+}
+ 
+#b1,#b2{
+    width: 80%;
+    margin: 5px 0 15px;
+}
+
+button{
+    width: 200px;
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    border: solid black 2px;
+}

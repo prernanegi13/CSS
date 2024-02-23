@@ -1,0 +1,77 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px  solid black;
+    background-color: blueviolet;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+
+    /* animation-name: prerna; */
+    /* animation-duration: 1s; */
+    /* animation-duration: 0.25s; */
+    /* animation-duration: 3s; */
+
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s; */
+    /* animation-iteration-count: 3; */
+    /* animation-iteration-count: infinite; */
+
+
+    /* animation-direction: normal; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+
+
+/* Animation Shorthand */
+   animation: prerna 2s ease-in 1s infinite normal;
+
+}
+
+
+/* @keyframes prerna {
+    from{background-color: blueviolet;}
+    to{background-color: pink;}
+} */
+
+/* @keyframes prerna
+{
+ from{
+    left:0px;
+    background-color: blueviolet;
+    } 
+    to{
+    left:200px;
+    background-color: green; 
+    }
+}
+   */
+
+/* % in Animation */
+
+@keyframes prerna 
+{
+
+  0% {
+    left: 0px;
+    background-color: blueviolet;
+  }
+
+  50%{
+    background-color: crimson;
+  }
+
+  100%{
+    left: 200px;
+    background-color: green;
+  }
+
+}
+
+
+
+div:hover{
+
+}

@@ -1,0 +1,80 @@
+.container{
+    height: 520px;
+    width: 500px;
+    background-color: paleturquoise;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid grey;
+}
+
+#a1,#a2,#a3,#a4,#a5,#a6,#a7{
+background-color: white;
+color: black;
+width: 20;
+border: 2px  solid rgb(140, 125, 125);
+text-align: center;
+}
+
+#a1,#a2,#a3{
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 2px;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2px;
+    font-weight: normal;
+    color: rgb(225, 28, 28);
+
+}
+
+#a2{
+    width: 50%;
+}
+
+#a3{
+    width: 30%;
+}
+
+#a6{
+    /* margin-right: 30px; */
+    background-color: rgb(8, 148, 160);
+}
+
+#a7{
+    background-color: rgb(8, 148, 160);
+}
+
+#a6,#a7{
+    height: 30px;
+    width: 210px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+#a7:hover{
+    background-color: red;
+    color: white;
+
+}
+
+#a6:hover{
+    background-color: green;
+    color: white;
+}
+
+hr{
+    color: rgb(159, 220, 6);
+}

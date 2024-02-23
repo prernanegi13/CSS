@@ -1,0 +1,127 @@
+/* PRACTICE SET1(header footer and main container)
+
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+
+}
+
+#navbar{
+ background-color: black;   
+ height: 60px;
+ margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+#logo{
+    color: rgb(255, 188, 5);
+    font-size: 25px;
+}
+
+button{
+    background-color: rgb(255, 188, 5);
+}
+
+#input{
+    color: black;
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+#container{
+    height:620px;
+}
+
+#box{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: black;
+    text-align: center;
+}
+
+
+header{
+    text-align: center;
+} */
+
+
+/* PRACTICE SET2 (TRAFFIC SIGNAL LIGHT)
+#traffic{
+    height: 200px;
+    width: 80px;
+    background-color: rgb(171, 177, 162);
+    border:black 2px solid;
+}
+
+#light{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px black solid;
+} */
+
+
+/* PRACTICE SET3 BOXES PLAYGROUND */
+
+div{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position:static; /* it is static means it is fixed it will not change its position */
+}
+
+#box2{ 
+    position: relative;    /* it is relative means it will move only in its fixed position up-down OR left-right*/
+    top: 120px;
+    left: 2px;
+} 
+
+#box3{
+    position: absolute; /*it will change his position accoriding to a body tag means its parent tag */
+    top: 200px;
+    left: 250px;
+}
+
+/* #box4{
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    left:0;
+} */
+
+#box4{
+    position: fixed;  /*we can use stick too  fixed means if we scroll then also it will  visible to us*/
+    top:0;
+    right:0;
+}
+
+#box5{
+    position: sticky;
+    bottom:400px;
+    right:500px;
+}

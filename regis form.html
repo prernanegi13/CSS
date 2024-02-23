@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a different forms coding ">
+    <meta name="robots" content="no inbox no follow">
+    <link rel="stylesheet" href="regform.css">
+    <title>Forms</title>
+</head>
+<body>  
+             <!-- Registration FORM -->
+     <div class="container">
+    <form action="formdemo.html" autocomplete="off">
+
+     <h1><b>Registration Form</b></h1>
+     <hr>
+     <h5> ***fill out the form carefully for Registration***</h5>
+     <br><br> 
+     <label for="a1"><b> Student Name :</b></label> <br>
+     <input type="text" name="student name" required  placeholder="first name"  id="a1">
+     <input type="text" name="student name" required  placeholder="middle name" id="a1">
+     <input type="text" name="student name" required  placeholder="last name"   id="a1">      <br><br>
+
+<label for="a2"><b>Student E-mail :</b></label> <br>
+<input type="email" name="email" placeholder="ex: prerna@gmail.com" id="a2" required>
+<br><br>
+
+<label for="a3"><b>Contact Number :</b></label> <br>
+<input type="tel" name="telephone" id="a3" required  maxlength="10"  >
+<br><br>
+
+<label for="a5"><b>Gender :</b></label> <br>
+<select name="gender" id="a5" required>
+    <option value="select">select</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="others">Others</option>
+</select>
+<br> <br> 
+
+<label for="a4"><b>Course :</b></label> <br>
+<select name="education" id="a4" required>
+    <option value="select">select</option>
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="BOOTSTRAP">BOOTSTRAP</option>
+    <option value="JAVASCRIPT">JAVASCRIPT</option>
+    <option value="J-QUERY">J-QUERY</option>
+</select>
+<br><br>
+
+<center>
+<input type="submit" name="button" value=" submit"  id="a6">
+<input type="reset" name="button" value=" reset"  id="a7">
+</center>
+
+    </form>
+    </div>
+
+</body>
+</html>
